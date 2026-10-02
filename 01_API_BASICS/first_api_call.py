@@ -14,6 +14,7 @@ response = client.responses.create(
     # top_k :"...."
         #only consider top K most probable tokens
     # "max_output_tokens" :"..." #limit how much the model can generate
+        # Controls hopw much output the model is allowed to generate
     # text 
         # important when you start leaning Structured Outputs
     # tools
