@@ -990,10 +990,15 @@ Common HTTP/API errors include:
   Status   General meaning
   -------- -----------------------------
   400      Bad/invalid request
+  
   401      Authentication problem
+  
   403      Permission/access problem
+  
   404      Resource/model not found
+
   429      Rate limit or quota problem
+  
   5xx      Server-side error
 
 Examples we encountered during hands-on:
